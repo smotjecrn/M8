@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Registre</title>
+
+    <style>
+
+    body        {background-color: #f0e7c3; margin: 0; padding: 0;}
+    input       {width: 220px; height:25px;}
+    button      {width:95px; height:45px; margin:3px; border:1px; font-size:15px; color: white; margin-top: 5px; margin-bottom: 5px;}
+    a           {text-decoration: none;}
+    a:visited   {color: white;}
+    a:link      {color: white;}
+    ul          {float: right; margin-top: 0; padding-top: 15px;}
+    li          {margin: 5px;}
+    #cabeza     {background-color: white; height: 50px;}
+    #cabeza li  {list-style-type: none; float: right; margin-top: 0px;}
+    #contenidor {width:230px; font-size: 15px; font-family: sans-serif; margin-left: 20%; padding-top: 130px;}
+    #movil      {background-image: url(img/frame-iphone5.png); width: 400px; height: 580px; margin-left: 40%;}
+    #Google     {background-color: red;}
+    #Facebook   {background-color: blue;}
+    #Register   {background-color: #57b548; width:220px;}
+    #enlace li  {width: 70px; height: 20px; margin: 5px; float: left; list-style-type: none; text-align: center; padding: 15px;}
+    #terminos   {margin-top: 10px; font-size: 10px; float: left;}
+    #inici      {background-color: #57b548; height: 20px;}
+    #feedly     {margin: 10px;}
+    </style>
+
+  </head>
+  <body>
+  <div>
+    <div id="cabeza">
+      <img id="feedly" src="img/feedly-logo-small-black.png"/>
+        <ul>
+          <li id="inici"><a href="incia_sessió.html" target="_blank">Inicia sessió</a></li>
+          <li>Si ja ets usuari</li>
+        </ul>
+    </div>
+  </div>
+
+  <div id="movil">
+    <div id="contenidor">
+          <div>
+          <h2>Entra a Feedly</h2>
+          </div>
+
+          <div>
+          El contenido que necesitas para acelerar tus búsquedas, ventas y promoción.
+          </div>
+
+          <div id="enlace">
+
+           <li id="Google"><a href="https://accounts.google.com/ServiceLogin/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=AddSession">Google+</a></li>
+           <li id="Facebook"><a href="https://ca-es.facebook.com/">Facebook</a></li>
+          </div>
+
+          <div>
+            <input type="text" id="nom" placeholder="Name">
+          </div>
+
+          <div>
+            <input type="text" id="email" placeholder="Email">
+          </div>
+
+          <div>
+            <input type="password" id="pass" placeholder="Password">
+          </div>
+
+          <div>
+            <button type="submit"
+            id="Register">Register</button>
+          </div>
+
+          <div>
+            <div id=terminos>
+              <input type="checkbox"> Para contiuar, acepta los términos de uso y las políticas de privacidad.
+            </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
