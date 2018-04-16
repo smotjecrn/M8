@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <style>
+
+    #fondo      {width: 500px; margin: 0 auto;}
+    #cel        {height: 500px; background-color: cyan; animation-name: color; animation-duration: 5s; animation-iteration-count: infinite;}
+    @keyframes color {
+      0%{background-color: blue;}
+      100%{background-color: cyan;}
+    }
+    #terra      {height: 200px; width: 500px; background-color: yellow; position: relative;}
+    #rodalies   {width: 100px; height: 100px; margin: 0 auto; font-size: 30px; padding-top: 25px; font-family: helvetica;}
+    #sol        {margin: 0 auto; width: 100px; height: 100px; background-color: orange; border-radius: 50px; position: relative; top: 350px; animation-name: sortint; animation-duration: 5s; animation-iteration-count: infinite;}
+    @keyframes sortint {
+      0%{top: 350px; transform: scale(1); background-color: white;}
+      100%{top: -40px; transform: scale(1.5); background-color: orange;}
+    }
+    #tren       {width: 100px; height: 100px; background-color: purple; border-radius: 10px 10px 0 0; position: absolute; top: -110px; left: 200px; animation-name: arrancar; animation-duration: 5s; animation-iteration-count: infinite;}
+    @keyframes arrancar {
+      0%{top: -70px; transform: scale(0.5);}
+      100%{top: 80px; transform: scale(1);}
+    }
+    #cami       {width: 100px; height: 200px; background-color: brown; margin: 0 auto;}
+    #r4         {width: 90px; height: 50px; background-color: white; border-radius: 10px 10px 0 0; margin: 5px auto; text-align: center; font-family: helvetica; font-size: 20px;}
+    .luz        {width: 20px; height: 20px; background-color: yellow; margin: 0 auto; float: left; margin: 15px; border-radius: 10px;}
+    .roda       {width: 15px; height: 15px; background-color: black; margin: 0 auto; float: left; margin: 15px; position: relative; left: 5px; bottom: 28px;}
+
+  </style>
+</head>
+<body>
+  <div id="fondo">
+
+        <div id="cel">
+          <div id="rodalies">
+            Rodalies
+          </div>
+          <div id="sol">
+            </div>
+        </div>
+        <div id="terra">
+          <div id="tren">
+                <div id="r4">
+                  R4 Martorell
+                </div>
+                <div class="luz">
+                </div>
+                <div class="luz">
+                </div>
+                <div class="roda">
+                </div>
+                <div class="roda">
+                </div>
+          </div>
+          <div id="cami">
+          </div>
+      </div>
+
+  </div>
+
+</body>
+</html>
