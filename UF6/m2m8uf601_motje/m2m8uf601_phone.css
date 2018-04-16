@@ -1,0 +1,63 @@
+@media screen and (max-width: 480px){
+  body{
+    background-color: red;
+    margin: 0;
+    padding: 0;
+  }
+  img{
+    height: 100%;
+    width: 100%;
+  }
+#caixa{
+  color: white;
+  background-color: pink;
+}
+#cap{
+  text-align: center;
+  background-color: purple;
+}
+#cap h2{
+  margin-top: 0;
+}
+#cap #menu{
+  height: 30px;
+  width: 60%;
+  margin: 0 auto;
+}
+#cos{
+  background-color: yellow;
+  overflow: hidden;
+}
+#opina{
+  background-color: green;
+  overflow: hidden;
+}
+#peu{
+  text-align: center;
+  background-color: black;
+  height: 50px;
+}
+#fondo{
+  padding: 10px;
+}
+.menu{
+  margin: 5px;
+  text-align: center;
+  float: left;
+}
+.noticia{
+  text-align: center;
+  height: 200px;
+  width: 90%;
+  margin: 10px auto;
+  background-color: #789657;
+}
+.opinar{
+  background-color: #675849;
+  height: 50px;
+  width: 90%;
+  text-align: center;
+  margin: 10px auto;
+}
+
+}
